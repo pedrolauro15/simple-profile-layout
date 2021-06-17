@@ -1,0 +1,20 @@
+.field .input_container {
+  position: relative;
+}
+
+.field .input_container button {
+  position: absolute;
+  left: 0;
+  background-color: transparent;
+}
+
+.field .input_container button img {
+  width: 20px;
+  height: 20px;
+}
+
+.button_input {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+}

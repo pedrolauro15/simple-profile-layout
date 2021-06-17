@@ -1,4 +1,5 @@
 import React from "react";
+import PasswordInput from "../../components/passwordf-input";
 import "./styles.css";
 
 export const ProfilePage: React.FC = () => {
@@ -42,10 +43,8 @@ export const ProfilePage: React.FC = () => {
                 <label>Nome</label>
                 <input type="text" placeholder="Nome" />
               </div>
-              <div className="field">
-                <label>Senha</label>
-                <input type="password" placeholder="Senha" />
-              </div>
+              
+              <PasswordInput title="Senha" />
               <div className="field">
                 <label>Email</label>
                 <input type="mail" placeholder="Email" />
